@@ -1,7 +1,7 @@
 import os
 
 project_path = './lib'  # Adjust as needed
-output_file = 'collection.txt'
+output_file = 'mobile-cdoe.txt'
 
 with open(output_file, 'w', encoding='utf-8') as out_file:
     for root, _, files in os.walk(project_path):

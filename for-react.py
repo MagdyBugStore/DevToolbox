@@ -2,7 +2,7 @@ import os
 
 # 1. Project directory (React usually puts source code in 'src')
 project_path = './src'  
-output_file = 'react_collection.txt'
+output_file = 'react_code.txt'
 
 # 2. Define extensions to include
 valid_extensions = ('.js', '.jsx', '.ts', '.tsx', '.css', '.json')
