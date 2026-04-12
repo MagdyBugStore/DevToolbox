@@ -17,10 +17,10 @@
    ```
 2. أضف الأوامر التالية (مع تعديل المسار `C:\Scripts` للمكان الفعلي للملفات):
    ```powershell
-   function bundle-react { python "C:\Scripts\for-react.py" }
-   function bundle-node { python "C:\Scripts\for-node.py" }
-   function bundle-flutter { python "C:\Scripts\for-flutter.py" }
-   function get-tree { python "C:\Scripts\get-root-file.py" }
+   function bundle-react { python "C:\DevToolbox\for-react.py" }
+   function bundle-node { python "C:\DevToolbox\for-node.py" }
+   function bundle-flutter { python "C:\DevToolbox\for-flutter.py" }
+   function get-tree { python "C:\DevToolbox\get-root-file.py" }
    
    # اختصارات سريعة
    Set-Alias br bundle-react
@@ -38,10 +38,10 @@
    ```
 2. أضف الـ Aliases التالية:
    ```bash
-   alias br='python3 /path/to/scripts/for-react.py'
-   alias bn='python3 /path/to/scripts/for-node.py'
-   alias bf='python3 /path/to/scripts/for-flutter.py'
-   alias gt='python3 /path/to/scripts/get-root-file.py'
+   alias br='python3 /path/to/DevToolbox/for-react.py'
+   alias bn='python3 /path/to/DevToolbox/for-node.py'
+   alias bf='python3 /path/to/DevToolbox/for-flutter.py'
+   alias gt='python3 /path/to/DevToolbox/get-root-file.py'
    ```
 
 ---
